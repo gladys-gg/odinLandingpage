@@ -1,0 +1,150 @@
+.container{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links a{
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    
+}
+.links{
+    margin: 0;
+    float: right;
+}
+.hero{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero p{
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+.hero1 {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+.hero2 img {
+    width: 500px;
+    height: 350px;
+}
+.random {
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+.images p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.quote{
+    padding: 60px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight:lighter;
+    font-family: 'Roboto', arial;
+}
+.quote b{
+    float: right;
+}
+.call{
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.action {
+    flex: 1;
+    padding: 30px;
+}
+
+.action {
+    text-align: left;
+}
+
+.action p {
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+}
+
+button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    float: right;
+}
+footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
